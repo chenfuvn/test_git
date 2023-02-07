@@ -5,7 +5,7 @@ const app = express();
 app.get("/", (req, res)=> {
     return res.json({
         status: true,
-        message: "OK"
+        message: "This is main endpoint"
     });
 })
 
